@@ -2,7 +2,7 @@ from dash import Dash, dcc, html
 import pandas as pd 
 import plotly.express as px 
 
-df = pd.read_csv("C:/Users/user3/Desktop/formatted_data.csv")
+df = pd.read_csv("")
 
 df = df.sort_values(by = "date")
 
