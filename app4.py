@@ -17,7 +17,7 @@ pio.templates['custom'] = go.layout.Template(
     layout_font_color = "#9E0D20",
     layout_font_size = 20
     )
-pio.templates.default = "plotly+custom"    
+pio.templates.default = "plotly+custom"   
 
 @app.callback(
     Output(dcc.Graph(id = "all_draw", figure = fig), "figure"),
